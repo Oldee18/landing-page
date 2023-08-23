@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html, body {
-    height: 100vh;
+    height: 100%;
     width: 100vh;
 }
 
@@ -9,17 +9,19 @@ body {
     font-family: roboto;
     margin: 0px;
     display: flex;
+    flex: auto;
     flex-direction: column;
     padding-left: 300px;
     padding-right: 300px;
 
 }
-
+/*Here starts the header styles!*/
 .header {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
     height: 500px;
+    padding-bottom: 100px;
     
 }
 
@@ -44,7 +46,7 @@ body {
     align-items: center;
     list-style-type: none;
     gap: 10px;
-    padding-right: 100px;
+    padding-right: 70px;
 }
 
 a {
@@ -99,9 +101,79 @@ a:link a:visited {
 .placeholder-image {
     display: flex;
     justify-content: center;
-    margin-right: 50px;
+    margin-right: 20px;
     align-items: center;
     background-color: grey;
     width: 350px;
     color: #e5e7eb;
 }
+
+/*Here starts the main body styles!*/
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.blue-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.blue-border {
+    border-style: groove;
+    border-color: #3882F6;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+/*Under this line starts the indpiring quote style!*/
+
+.subtext {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    list-style-type: none;
+    padding-bottom: 100px;
+}
+
+.text {
+    font-size: 15px;
+    width: 150px;
+}
+
+.grey-inspiring {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7eb;
+    height: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    width: 500px;
+}
+
+.creator {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*Under this line starts the bottom body style!*/
+
