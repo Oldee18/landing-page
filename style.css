@@ -1,19 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html, body {
-    height: 100%;
-    width: 100vh;
 }
 
 body {
     font-family: roboto;
     margin: 0px;
     display: flex;
-    flex: auto;
+    flex: 1;
     flex-direction: column;
     padding-left: 300px;
     padding-right: 300px;
-
 }
 /*Here starts the header styles!*/
 .header {
@@ -155,9 +152,10 @@ a:link a:visited {
     display: flex;
     flex-direction: column;
     background-color: #E5E7eb;
-    height: 1200px;
+    height: 350px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .quote {
@@ -177,3 +175,56 @@ a:link a:visited {
 
 /*Under this line starts the bottom body style!*/
 
+.bottom-body {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+}
+
+.text-container {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 35px;
+    width: 700px;
+    max-height: 150px;
+}
+
+.text-bottom {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7eb;
+}
+
+#Call {
+    color: #F9FAF8;
+    font-size: 25px;
+}
+
+.bottom-signup {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    font-weight: bold;
+}
+
+/*Under this line starts the footer styles!*/
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #E5E7eb;
+}
